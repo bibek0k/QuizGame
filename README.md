@@ -27,8 +27,5 @@ Welcome to **Quiz Game** — a sleek, fast, and responsive web quiz app built us
 
 ---
 
-quiz-game/
-├── index.html       # Main structure and layout
-├── style.css        # UI design and styling
-├── script.js        # Game logic and leaderboard handling
-└── README.md        # Project documentation
+
+
