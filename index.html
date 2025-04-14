@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Quiz Game</h1>
+  </header>
+
+  <!-- Landing Page -->
+  <section class="landing" id="landing">
+    <h2>Welcome to the Quiz Game!</h2>
+    <button id="startButton" class="submit-button">Start</button>
+  </section>
+
+  <!-- Quiz Container -->
+  <main class="container hidden" id="quizContainer">
+    <div class="main">
+      <div class="question">
+        <section class="Qhead">
+          <div><h2></h2></div>
+          <div class="timer">00:30</div>
+        </section>
+        <h3></h3>
+        <form></form>
+      </div>
+    </div>
+
+    <div class="leader-board main">
+      <h2>Leaderboard</h2>
+      <table class="leaderboard-table">
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+      </table>
+      <button class="submit-button" onclick="clearLeaderboard()">Clear Leaderboard</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© Made by Bibek</p>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Terms</a>
+      <a href="https://x.com/bibek0k">X</a>
+      <a href="https://github.com/bibek0k">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
