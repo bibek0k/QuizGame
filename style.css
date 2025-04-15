@@ -13,6 +13,7 @@ body {
   text-align: center;
   padding: 60px 20px;
   border-radius: 9px;
+  box-shadow: 0 10px 30px #0000001a;
 }
 
 .landing h2 {
@@ -108,7 +109,7 @@ input[type="radio"]:checked + .custom-radio {
     border-radius: 10px;
     padding: 20px;
     height: 65vh;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px #0000001a;
 }
 
 .leader-board h2 {
