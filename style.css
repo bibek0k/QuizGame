@@ -172,24 +172,6 @@ table th {
     color: white;
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 600px) {
-    .container {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        height: 150vh;
-    }
-
-    .submit-button {
-        width: 98%;
-        margin: 10px 0;
-    }
-
-    table th, table td {
-        font-size: 14px;
-    }
-}
-
 
 
 /* Quiz Game Themed Dark Mode Toggle - Compact & Styled */
@@ -207,6 +189,7 @@ table th {
 }
 
 #circul {
+    content: url('sun.svg');
     height: 20px;
     width: 20px;
     background-color: #5a4f8d;
@@ -215,11 +198,6 @@ table th {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#circul img {
-    width: 20px;
-    height: 20px;
 }
 
 .move {
@@ -278,4 +256,22 @@ body.dark table td {
 
 body.dark .footer-links a {
   color: #aaa;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        height: 150vh;
+    }
+
+    .submit-button {
+        width: 98%;
+        margin: 10px 0;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
 }
