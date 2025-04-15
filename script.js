@@ -9,7 +9,7 @@ const questions = [
     { question: "What is the chemical symbol for gold?", options: ["Au", "Ag", "Fe", "Pb"], correct: 0 },
     { question: "Which gas do plants absorb from the atmosphere?", options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], correct: 2 },
     { question: "What is the powerhouse of the cell?", options: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"], correct: 1 },
-    { question: "Who is the developer of this page?", options: ["Barni", "Ash", "Bibek", "Alax"], correct: 2 },
+    { question: "Who is the developer of this page?", options: ["Barni", "Ash", "Bibek", "Alax"], correct: 2 }
     
   ];
   

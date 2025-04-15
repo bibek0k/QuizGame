@@ -9,6 +9,7 @@ body {
 }
 
 .landing {
+    height: 100vh;
   text-align: center;
   padding: 60px 20px;
 }
@@ -86,6 +87,7 @@ input[type="radio"]:checked + .custom-radio {
 
 .container {
     display: grid;
+    height: 100vh;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px;
     gap: 20px;
@@ -135,12 +137,13 @@ table th {
 }
 
 .footer {
-    margin-top: 200px;
+    
     text-align: center;
     padding: 1rem 0;
     background-color: #1e1340;
     color: white;
     font-size: 0.9rem;
+    
 }
 
 .footer-links {
@@ -163,6 +166,7 @@ table th {
     .container {
         grid-template-columns: 1fr;
         justify-content: center;
+        height: 150vh;
     }
 
     .submit-button {
