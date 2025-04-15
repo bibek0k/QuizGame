@@ -26,6 +26,7 @@ const questions = [
   const landingPage = document.getElementById("landing");
   const startButton = document.getElementById("startButton");
   const leaderboardTable = document.querySelector(".leaderboard-table");
+  const logo = document.getElementById("logo");
   
   startButton.addEventListener("click", () => {
     landingPage.classList.add("hidden");
@@ -33,6 +34,16 @@ const questions = [
     startQuiz();
   });
   
+  logo.addEventListener("click", () => {
+    landingPage.classList.remove("hidden");
+    quizContainer.classList.add("hidden");
+    clearInterval(timer);
+    timerDisplay.style.display = "none";
+    currentQuestion = 0;
+    score = 0;
+    timeLeft = 30;
+  })
+
   function startQuiz() {
     currentQuestion = 0;
     score = 0;
@@ -119,6 +130,7 @@ const questions = [
   function restartQuiz() {
     startQuiz();
   }
+ 
   
   function renderLeaderboard() {
     const leaderboard = JSON.parse(localStorage.getItem("leaderboard") || "[]").slice(0, 5);
