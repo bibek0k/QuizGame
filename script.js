@@ -148,7 +148,7 @@ const circul = document.getElementById("circul");
 const body = document.querySelector("body");
 const back = document.querySelector(".toggle-box");
 
-circul.addEventListener("click", () => {
+back.addEventListener("click", () => {
     circul.classList.toggle("move");
     body.classList.toggle("dark");
     circul.classList.toggle("circul1");
