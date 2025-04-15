@@ -21,9 +21,9 @@ Welcome to **Quiz Game** — a sleek, fast, and responsive web quiz app built us
 
 ## Tech Stack
 
-- **HTML5**
-- **CSS3** (Custom styling with Google Fonts - Montserrat)
-- **Vanilla JavaScript** (no frameworks)
+- **HTML**
+- **CSS** (Custom styling with Google Fonts - Montserrat)
+- **JavaScript** (no frameworks)
 
 ---
 
