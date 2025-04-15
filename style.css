@@ -21,8 +21,16 @@ body {
 
 
 header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     margin: 10px;
-    padding-left: 10px;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 .Qhead {
@@ -181,3 +189,90 @@ table th {
 
 
 
+/* Quiz Game Themed Dark Mode Toggle - Compact & Styled */
+
+.toggle-box {
+    width: 50px;
+    height: 20px;
+    background-color: #413577;
+    border: 3px solid #251d47;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#circul {
+    height: 20px;
+    width: 20px;
+    background-color: #5a4f8d;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circul img {
+    width: 20px;
+    height: 20px;
+}
+
+.move {
+    transform: translateX(30px) rotate(360deg);
+}
+
+.circul1 {
+    background-color: #251d47 !important;
+    content: url('moon.svg') !important;
+}
+
+.box1 {
+    border-color: #5a4f8d !important;
+}
+
+/* Dark Mode Colors (for Quiz Game) */
+body.dark {
+  background-color: #1c1c2e;
+  color: #dcdce6;
+}
+
+body.dark .main,
+body.dark .landing,
+body.dark .footer {
+  background-color: #2e2e42;
+}
+
+body.dark .custom-radio {
+  background-color: #3a3a54;
+  color: #dcdce6;
+}
+
+body.dark input[type="radio"]:checked + .custom-radio {
+  background-color: #5a4f8d;
+  color: #ffffff;
+}
+
+body.dark .submit-button {
+  background-color: #5a4f8d;
+  color: #ffffff;
+}
+
+body.dark .submit-button:hover {
+  background-color: #7764c6;
+}
+
+body.dark .timer,
+body.dark .leader-board h2,
+body.dark table th {
+  background-color: #5a4f8d;
+}
+
+body.dark table td {
+  background-color: #3a3a54;
+}
+
+body.dark .footer-links a {
+  color: #aaa;
+}

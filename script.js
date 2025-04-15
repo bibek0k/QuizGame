@@ -141,4 +141,18 @@ const questions = [
   }
   
   renderLeaderboard();
+
+
+
+const circul = document.getElementById("circul");
+const body = document.querySelector("body");
+const back = document.querySelector(".toggle-box");
+
+circul.addEventListener("click", () => {
+    circul.classList.toggle("move");
+    body.classList.toggle("dark");
+    circul.classList.toggle("circul1");
+    back.classList.toggle("box1");
+});
+
   
